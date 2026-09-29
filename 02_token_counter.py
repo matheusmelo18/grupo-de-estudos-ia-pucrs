@@ -27,4 +27,4 @@ for categoria, texto in textos.items():
     qtd_palavras = len(texto.split())
     qtd_tokens = res.total_tokens
     razao = qtd_tokens / max(qtd_palavras, 1)
-    print(f"{categoria:<15} | {qtd_chars:<12} | {qtd_palavras:<10} | {qtd_tokens:<8} | {razao:.2f}")
+    print(f"{categoria:<15} | {qtd_chars:<12} | {qtd_palavras:<10} | {qtd_tokens:<8} | {razao:.2f}")2
