@@ -216,3 +216,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Bases geradas (Dia 16 - DataOps Agent): recriadas por init_db.py + seed_data.py
+dia16/data/*.db
